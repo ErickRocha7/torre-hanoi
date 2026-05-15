@@ -135,8 +135,9 @@ public class Renderer {
                     // Posição física absoluta inicial (sem translação)
                     r.setX(0);
                     r.setY(0);
-                    r.TranslateXProperty().setValue(posAlvo.x());
-                    r.TranslateYProperty().setValue(posAlvo.y());
+                    r.translateXProperty().setValue(posAlvo.x());
+                    r.translateYProperty().setValue(posAlvo.y());
+
                     return r;
                 });
 
